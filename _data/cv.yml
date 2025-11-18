@@ -2,82 +2,97 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Majid Manzoor
+    - name: Nationality
+      value: Pakistan
+    - name: Date-of-Birth
+      value: 14-07-2000
     - name: Languages
-      value: English, German
-
+      value: English (Fluent), Urdu (Native), Chinese (HSK3)
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master's in (Computer Science and Technology)
+      institution: Southwest Jiaotong University (SWJTU), Chengdu, China
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+          - Focus on Computer Vision, Deep Learning, and Autonomous Systems.
+          - Research on RGBT person detection, UAV-based disaster classification, and semantic segmentation.
+          - Thesis work on vision-based autonomous perception and trajectory systems.
+     - title: Bachelor of Science (Computer Science)
+      institution: Mohi-Ud-Din Islamic University Azad Kashmir, Pakistan
+      year: 2018 – 2022
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
+        - Built strong foundations in programming, AI, and data science.
+        - Completed multiple academic and industrial projects.
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Researcher – Computer Vision & Deep Learning
+      institution: CRILBD Lab, Southwest Jiaotong University (SWJTU), China
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working on end-to-end perception and navigation systems for autonomous vehicles and agricultural robots.
+        - Developing **ObstaLaneYOLO**, a Monocular camera based autonomous system using deep learning for perception and path-following.
+        - Implementing lightweight neural networks for lane detection, obstacle detection, and drivable-area segmentation.
+        - Researching multi-sensor fusion, real-time inference, and model deployment on Jetson AGX.
+        - Contributing to next-generation autonomous driving algorithms focusing on cost-efficient and scalable perception.
+    - title: Projects
+      type: time_table
+      contents:
+        - title: AgrisenseBot – Vision-Based Autonomous Farm Robot
+      year: 2024 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
+        - Developing an intelligent autonomous robot system named **(AgriSenseBot)**, for agricultural environments.
+        - Using **camera-only perception** with YOLOPv2 for lane detection, obstacle detection, and road segmentation.
+        - Designing end-to-end navigation and control pipeline deployed on NVIDIA Jetson AGX 16GB.
+        - Built for precision agriculture and autonomous field traversal.
+      - title: Skills
+        type: list
+        contents:
+          - <u>Programming:</u> Python, C++, Bash
+          - <u>Frameworks:</u> PyTorch, TensorFlow, ONNX, TensorRT
+          - <u>Computer Vision:</u> OpenCV, scikit-image, PIL, MMCV, MMDetection, MMSegmentation
+          - <u>Tools:</u> Git, Docker, Jupyter, LaTeX/Overleaf
+          - <u>Deep Learning:</u> CNNs, ViTs, Transformers, Mamba, Segmentation & Detection Models
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Honors and Awards
+      type: time_table
+      contents:
+        - year: 2025
+        items:
+          - Successfully passed HSK3 Chinese Language Exam
+        - year: 2024
+        items:
+          - Successfully passed HSK3 Chinese Language Exam
+       - year: 2023
+        items:
+          - Got Fully Funded Presidential Scholership From Southwest Jiaotong Univeristy.
 
-- title: Open Source Projects
-  type: time_table
+- title: Academic Interests
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Computer Vision
+      items:
+        - Vision-based perception
+        - Scene understanding
+    - title: Deep Learning
+      items:
+        - Vision Transformers
+        - Efficient Mamba architectures
+    - title: Autonomous Systems
+      items:
+        - Perception modules
+        - Trajectory and planning researchor academics.
 
-- title: Honors and Awards
-  type: time_table
+- title: Other Interests
+  type: list
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - <u>Hobbies:</u> Reading research papers, photography, traveling, fitness
 
 - title: Academic Interests
   type: nested_list
@@ -90,8 +105,3 @@
       items:
         - Description 1.
         - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

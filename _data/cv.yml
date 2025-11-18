@@ -12,19 +12,20 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master's in (Computer Science and Technology)
+    - title: Master's in Computer Science and Technology
       institution: Southwest Jiaotong University (SWJTU), Chengdu, China
-      year: 2023 - Present
+      year: 2023 – Present
       description:
-          - Focus on Computer Vision, Deep Learning, and Autonomous Systems.
-          - Research on RGBT person detection, UAV-based disaster classification, and semantic segmentation.
-          - Thesis work on vision-based autonomous perception and trajectory systems.
-     - title: Bachelor of Science (Computer Science)
-      institution: Mohi-Ud-Din Islamic University Azad Kashmir, Pakistan
+        - Focus on Computer Vision, Deep Learning, and Autonomous Systems.
+        - Research on autonomous driving perception and agricultural robotics.
+        - Thesis on vision-based autonomous perception and control systems.
+    - title: Bachelor of Science (Computer Science)
+      institution: Mohi-Ud-Din Islamic University, Azad Kashmir, Pakistan
       year: 2018 – 2022
       description:
         - Built strong foundations in programming, AI, and data science.
         - Completed multiple academic and industrial projects.
+        
 - title: Research Experience
   type: time_table
   contents:
@@ -37,42 +38,36 @@
         - Implementing lightweight neural networks for lane detection, obstacle detection, and drivable-area segmentation.
         - Researching multi-sensor fusion, real-time inference, and model deployment on Jetson AGX.
         - Contributing to next-generation autonomous driving algorithms focusing on cost-efficient and scalable perception.
-    - title: Projects
-      type: time_table
-      contents:
-        - title: AgrisenseBot – Vision-Based Autonomous Farm Robot
+  - title: Projects
+    type: time_table
+    contents:
+      - title: AgrisenseBot – Vision-Based Autonomous Farm Robot
       year: 2024 – Present
       description:
         - Developing an intelligent autonomous robot system named **(AgriSenseBot)**, for agricultural environments.
         - Using **camera-only perception** with YOLOPv2 for lane detection, obstacle detection, and road segmentation.
         - Designing end-to-end navigation and control pipeline deployed on NVIDIA Jetson AGX 16GB.
         - Built for precision agriculture and autonomous field traversal.
-      - title: Skills
-        type: list
-        contents:
+- title: Skills
+  type: list
+  contents:
           - <u>Programming:</u> Python, C++, Bash
           - <u>Frameworks:</u> PyTorch, TensorFlow, ONNX, TensorRT
           - <u>Computer Vision:</u> OpenCV, scikit-image, PIL, MMCV, MMDetection, MMSegmentation
           - <u>Tools:</u> Git, Docker, Jupyter, LaTeX/Overleaf
           - <u>Deep Learning:</u> CNNs, ViTs, Transformers, Mamba, Segmentation & Detection Models
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Honors and Awards
-      type: time_table
-      contents:
-        - year: 2025
-        items:
+- title: Honors and Awards
+  type: time_table
+  contents:
+     - year: 2025
+      items:
           - Successfully passed HSK3 Chinese Language Exam
-        - year: 2024
+      - year: 2024
         items:
           - Successfully passed HSK3 Chinese Language Exam
        - year: 2023
         items:
           - Got Fully Funded Presidential Scholership From Southwest Jiaotong Univeristy.
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -88,7 +83,6 @@
       items:
         - Perception modules
         - Trajectory and planning researchor academics.
-
 - title: Other Interests
   type: list
   contents:

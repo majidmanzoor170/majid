@@ -9,16 +9,10 @@ profile:
   image: pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><strong>Affiliation</strong><br>
-    Master's Student, School of Computer and Artificial Intelligence<br>
-    Southwest Jiaotong University (SWJTU)</p>
-
-    <p><strong>Location</strong><br>
-    Chengdu, Sichuan, China</p>
 
     <p><strong>Contact</strong><br>
     Email: <a href="mailto:majid@my.swjtu.edu.cn">majid@my.swjtu.edu.cn</a><br>
-    Phone: +86 13258174461<br>
+    Phone: <a href="+86 1325817446">+86 13258174461</a><br>
     WeChat ID: majid_manzoor</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -63,4 +57,4 @@ I am interested in building efficient vision models for real-world applications,
 ### 📫 Get in Touch
 
 I am open to research discussions and collaboration opportunities.  
-You can reach me at **majidmanzoor170@gmail.com**, on **WeChat (majid170)**, or via the social links below.
+You can reach me at **majidmanzoor170@gmail.com** or via the social links below.

@@ -5,10 +5,11 @@
       value: Majid Manzoor
     - name: Nationality
       value: Pakistan
-    - name: Date-of-Birth
+    - name: Date of Birth
       value: 14-07-2000
     - name: Languages
       value: English (Fluent), Urdu (Native), Chinese (HSK3)
+
 - title: Education
   type: time_table
   contents:
@@ -25,49 +26,59 @@
       description:
         - Built strong foundations in programming, AI, and data science.
         - Completed multiple academic and industrial projects.
-        
+
 - title: Research Experience
   type: time_table
   contents:
     - title: Researcher – Computer Vision & Deep Learning
       institution: CRILBD Lab, Southwest Jiaotong University (SWJTU), China
-      year: 2023 - Present
+      year: 2023 – Present
       description:
-        - Working on end-to-end perception and navigation systems for autonomous vehicles and agricultural robots.
-        - Developing **ObstaLaneYOLO**, a Monocular camera based autonomous system using deep learning for perception and path-following.
-        - Implementing lightweight neural networks for lane detection, obstacle detection, and drivable-area segmentation.
-        - Researching multi-sensor fusion, real-time inference, and model deployment on Jetson AGX.
-        - Contributing to next-generation autonomous driving algorithms focusing on cost-efficient and scalable perception.
-  - title: Projects
-    type: time_table
-    contents:
-      - title: AgrisenseBot – Vision-Based Autonomous Farm Robot
+        - Working on end-to-end perception and navigation for autonomous vehicles and agricultural robots.
+        - Developing ObstaLaneYOLO, a monocular camera–based autonomous driving system.
+        - Implementing lane detection, obstacle detection, and drivable-area segmentation.
+        - Real-time model deployment on NVIDIA Jetson AGX.
+        - Researching cost-efficient and scalable autonomous driving algorithms.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: AgrisenseBot – Vision-Based Autonomous Farm Robot
       year: 2024 – Present
       description:
-        - Developing an intelligent autonomous robot system named **(AgriSenseBot)**, for agricultural environments.
-        - Using **camera-only perception** with YOLOPv2 for lane detection, obstacle detection, and road segmentation.
-        - Designing end-to-end navigation and control pipeline deployed on NVIDIA Jetson AGX 16GB.
-        - Built for precision agriculture and autonomous field traversal.
+        - Building an intelligent robot for agricultural field navigation.
+        - Uses camera-only perception with YOLOPv2.
+        - Includes lane detection, obstacle detection, and road segmentation.
+        - Deployed on NVIDIA Jetson AGX 16GB.
+    - title: Autonomous Driving Perception Stack
+      year: 2024 – Present
+      description:
+        - Lightweight models for real-time detection and segmentation.
+        - Designed perception modules for small autonomous vehicles.
+    - title: RGBT Tiny Person Detection
+      year: 2025
+      description:
+        - Developing fusion-based RGB + Thermal models for drone surveillance.
+
 - title: Skills
   type: list
   contents:
-          - <u>Programming:</u> Python, C++, Bash
-          - <u>Frameworks:</u> PyTorch, TensorFlow, ONNX, TensorRT
-          - <u>Computer Vision:</u> OpenCV, scikit-image, PIL, MMCV, MMDetection, MMSegmentation
-          - <u>Tools:</u> Git, Docker, Jupyter, LaTeX/Overleaf
-          - <u>Deep Learning:</u> CNNs, ViTs, Transformers, Mamba, Segmentation & Detection Models
+    - <u>Programming:</u> Python, C++, Bash
+    - <u>Frameworks:</u> PyTorch, TensorFlow, ONNX, TensorRT
+    - <u>Computer Vision:</u> OpenCV, scikit-image, PIL, MMCV, MMDetection, MMSegmentation
+    - <u>Tools:</u> Git, Docker, Jupyter, LaTeX/Overleaf
+    - <u>Deep Learning:</u> CNNs, ViTs, Transformers, Mamba models
+
 - title: Honors and Awards
   type: time_table
   contents:
-     - year: 2025
+    - year: 2024
       items:
-          - Successfully passed HSK3 Chinese Language Exam
-      - year: 2024
-        items:
-          - Successfully passed HSK3 Chinese Language Exam
-       - year: 2023
-        items:
-          - Got Fully Funded Presidential Scholership From Southwest Jiaotong Univeristy.
+        - Passed HSK3 Chinese Language Exam
+    - year: 2023
+      items:
+        - Fully Funded Presidential Scholarship, SWJTU
+
 - title: Academic Interests
   type: nested_list
   contents:
@@ -82,20 +93,9 @@
     - title: Autonomous Systems
       items:
         - Perception modules
-        - Trajectory and planning researchor academics.
+        - Trajectory and planning
+
 - title: Other Interests
   type: list
   contents:
     - <u>Hobbies:</u> Reading research papers, photography, traveling, fitness
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.

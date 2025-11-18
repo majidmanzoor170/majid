@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   focusing on computer vision, deep learning, and autonomous systems. This website showcases 
   my research, publications, projects, and academic profile.
 footer_text: >
-  © {{ site.first_name }} {{ site.last_name }}. Powered by
+  Powered by
   <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

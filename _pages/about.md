@@ -2,16 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Master's Student · Southwest Jiaotong University, Chengdu, China.
 
 profile:
   align: right
   image: pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>swjtu</p>
-    <p>abcd</p>
-    <p>chengdu china</p>
+  <p><strong>Affiliation</strong><br>
+    Master's Student, School of Computer and Artificial Intelligence<br>
+    Southwest Jiaotong University (SWJTU)</p>
+    <p><strong>Location</strong><br>
+    Chengdu, Sichuan, China</p>
+
+    <p><strong>Contact</strong><br>
+    Email: <a href="mailto:majid@my.swjtu.edu.cn">majid@my.swjtu.edu.cn</a><br>
+    Phone: +86 13258174461<br>
+    WeChat ID: majid_manzoor</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +33,32 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 👋 Hi, I'm Majid Manzoor
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Master's student in **Computer Science and Technology** at **Southwest Jiaotong University (SWJTU)** in Chengdu, China.  
+My work focuses on **computer vision**, **deep learning**, and **autonomous systems**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am interested in building efficient vision models for real-world applications, such as autonomous driving, UAV-based perception, and intelligent sensing systems. I enjoy designing and implementing deep learning pipelines, optimizing models for deployment, and experimenting with modern architectures such as Vision Transformers and advanced detection or segmentation networks.
+
+---
+### 🔍 Research Interests
+
+- Computer Vision and Scene Understanding  
+- Deep Learning for Visual Perception  
+- Autonomous Driving and Intelligent Vehicles  
+- Lightweight and Efficient Neural Networks  
+
+---
+### 🛠 Technical Skills
+
+- **Programming:** Python, C++  
+- **Frameworks:** PyTorch, TensorFlow, ONNX, TensorRT  
+- **CV Tools:** OpenCV, scikit-image, PIL  
+- **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
+
+---
+
+### 📫 Get in Touch
+
+I am open to research discussions and collaboration opportunities.  
+You can reach me at **majidmanzoor170@gmail.com**, on **WeChat (majid170)**, or via the social links below.

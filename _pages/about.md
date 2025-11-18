@@ -12,7 +12,7 @@ profile:
 
     <p><strong>Contact</strong><br>
     Email: <a href="mailto:majid@my.swjtu.edu.cn">majid@my.swjtu.edu.cn</a><br>
-    Phone: <a href="+86 1325817446">+86 13258174461</a><br>
+    Phone: <a href="+861325817446">+86 13258174461</a><br>
     WeChat ID: majid_manzoor</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -34,7 +34,7 @@ latest_posts:
 I am a Master's student in **Computer Science and Technology** at **Southwest Jiaotong University (SWJTU)** in Chengdu, China.  
 My work focuses on **computer vision**, **deep learning**, and **autonomous systems**.
 
-I am interested in building efficient vision models for real-world applications, such as autonomous driving, UAV-based perception, and intelligent sensing systems. I enjoy designing and implementing deep learning pipelines, optimizing models for deployment, and experimenting with modern architectures such as Vision Transformers and advanced detection or segmentation networks.
+I am interested in building efficient vision models for real-world applications, such as autonomous driving, UAV-based perception, and intelligent sensing systems. I enjoy designing and implementing deep learning pipelines, optimizing models for deployment, and experimenting with modern architectures such as Vision Transformers and advanced detection networks.
 
 ---
 ### 🔍 Research Interests
@@ -48,7 +48,7 @@ I am interested in building efficient vision models for real-world applications,
 ### 🛠 Technical Skills
 
 - **Programming:** Python, C++  
-- **Frameworks:** PyTorch, TensorFlow, ONNX, TensorRT  
+- **Frameworks:** PyTorch, ONNX, TensorRT  
 - **CV Tools:** OpenCV, scikit-image, PIL  
 - **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
 

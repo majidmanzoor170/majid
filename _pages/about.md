@@ -2,15 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Master's Student · Southwest Jiaotong University, Chengdu, China.
+subtitle: "Affiliations · Master's Student · Southwest Jiaotong University, Chengdu, China."
 
 profile:
   align: right
   image: pic.jpg
   image_circular: false # crops the image to make it circular
-  <p><strong>Affiliation</strong><br>
+  more_info: >
+    <p><strong>Affiliation</strong><br>
     Master's Student, School of Computer and Artificial Intelligence<br>
     Southwest Jiaotong University (SWJTU)</p>
+
     <p><strong>Location</strong><br>
     Chengdu, Sichuan, China</p>
 

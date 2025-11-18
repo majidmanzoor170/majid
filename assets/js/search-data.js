@@ -504,25 +504,11 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Majid-Manzoor-2/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/majid/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=KmJpv4UAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-wechat_id',
-        title: 'Wechat_id',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
         },
       },{
       id: 'light-theme',

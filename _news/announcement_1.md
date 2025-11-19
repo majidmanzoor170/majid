@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Our paper accepted to ICCWAMTIP 2024"
-date: 2024-12-14 15:59:00-0400
+title: "🎉 Passed HSK 3 Exam"
+date: 2025-09-29 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Our paper titled **"Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles"** has been accepted to ICCWAMTIP 2024
+I successfully passed the **HSK 3 Chinese Proficiency Exam**, achieving a solid score that reflects my consistent effort in learning Mandarin. This milestone strengthens my communication ability in daily life and academic environments in China.

@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/majid/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "This page provides an organized overview of my research publications, including conference papers, journal articles, and preprints. Entries are automatically sorted by category and reverse chronological order using Jekyll Scholar.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/majid/publications/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",

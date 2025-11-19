@@ -414,7 +414,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
             },},{id: "news-i-successfully-passed-the-hsk-3-chinese-proficiency-exam-achieving-a-solid-score-that-reflects-my-consistent-effort-in-learning-mandarin-this-milestone-strengthens-my-communication-ability-in-daily-life-and-academic-environments-in-china",
-          title: 'I successfully passed the HSK 3 Chinese Proficiency Exam, achieving a solid score...',
+          title: '🎉 I successfully passed the HSK 3 Chinese Proficiency Exam, achieving a solid...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

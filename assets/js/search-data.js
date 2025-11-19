@@ -408,12 +408,12 @@ ninja.data = [{
             },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
           title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
           description: "",
-          section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
-          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
-          description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
-            },},{id: "news-i-successfully-passed-the-hsk-3-chinese-proficiency-exam-achieving-a-solid-score-that-reflects-my-consistent-effort-in-learning-mandarin-this-milestone-strengthens-my-communication-ability-in-daily-life-and-academic-environments-in-china",
+            },},{id: "news-our-preprint-spatial-spectral-transformer-with-gated-local-and-spectral-self-attention-for-hyperspectral-forensic-imaging-is-now-available-online-this-work-introduces-glossformer-a-compact-spatial-spectral-transformer-designed-for-accurate-non-destructive-forensic-stain-identification-using-hyperspectral-imaging-the-model-leverages-gated-local-and-spectral-self-attention-to-effectively-fuse-global-spatial-context-with-fine-spectral-features-the-framework-achieves-98-53-accuracy-on-the-hyperblood-dataset-outperforming-state-of-the-art-methods-in-distinguishing-blood-from-visually-similar-substances-such-as-artificial-blood-tomato-concentrate-beetroot-juice-and-various-paints-a-full-text-version-is-available-on-ssrn-5334108",
+          title: 'Our preprint “Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic...',
+          description: "",
+          section: "News",},{id: "news-i-successfully-passed-the-hsk-3-chinese-proficiency-exam-achieving-a-solid-score-that-reflects-my-consistent-effort-in-learning-mandarin-this-milestone-strengthens-my-communication-ability-in-daily-life-and-academic-environments-in-china",
           title: '🎉 I successfully passed the HSK 3 Chinese Proficiency Exam, achieving a solid...',
           description: "",
           section: "News",},{id: "projects-project-1",

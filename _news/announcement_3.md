@@ -2,7 +2,7 @@
 layout: post
 title: "🧪 New Preprint: GLoSSFormer for Hyperspectral Forensic Imaging"
 date: "2025-02-20 16:11:00 -0400"
-inline: true
+inline: false
 related_posts: false
 ---
 Our preprint **“Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging”** is now available online.

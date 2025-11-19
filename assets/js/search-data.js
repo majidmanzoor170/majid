@@ -406,7 +406,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/majid/books/the_godfather/";
             },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
-          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
+          title: '📝 Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles”...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";

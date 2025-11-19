@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/majid/cv/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/majid/cv/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -471,7 +478,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/majid/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/majid/assets/pdf/1-MAJID_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',

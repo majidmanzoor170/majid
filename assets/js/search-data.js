@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/majid/cv/";
@@ -405,13 +405,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/majid/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-a-long-announcement-with-details-for-project",
+          title: 'A long announcement with details for project ---------------',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
+          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
           description: "",
           section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
           title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',

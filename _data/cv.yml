@@ -2,96 +2,145 @@
   type: map
   contents:
     - name: Full Name
-      value: majid
+      value: Majid Manzoor
+    - name: Nationality
+      value: Pakistani
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 14 July 2000
+    - name: Location
+      value: Chengdu, China
+    - name: Email
+      value: majidmanzoor170@gmail.com
+    - name: Phone
+      value: +86 13258174461
+    - name: LinkedIn
+      value: manzoormajid
 
+# ------------------------------------------------------
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Computer Science & Technology
+      institution: Southwest Jiaotong University (SWJTU), Chengdu, China
+      year: 2023–2026 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - CGPA: 3.55 / 4.0
+        - Thesis: Enhancing Autonomous Driving with Vision-Based Perception and Trajectory Guidance
+        - Relevant Coursework: Artificial Intelligence, Deep Learning, Advanced Computer Vision, Pattern Recognition, Robotics
 
-- title: Experience
+    - title: Bachelor of Science in Computer Science
+      institution: Mohi-ud-Din Islamic University, Nerian Sharif, AJ&K, Pakistan
+      year: 2018–2022
+      description:
+        - CGPA: 3.73 / 4.0 (Gold Medalist)
+        - Thesis: Real-time Object Detection for Autonomous Driving using Deep Learning
+
+# ------------------------------------------------------
+- title: Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: "ObstaLaneYOLO: Real-Time Lane and Obstacle Detection for Autonomous Vehicles"
+      year: 2024
+      institution: IEEE ICCWAMTIP 2024, Chengdu, China
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Authors: Majid Manzoor; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz
+        - Publisher: IEEE
+        - DOI: 10.1109/ICCWAMTIP64812.2024.10873687
+
+    - title: "Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging"
+      year: 2025
+      institution: Expert Systems with Applications (Elsevier)
       description:
-        - Description 1.
-        - Description 2.
+        - Authors: M.H.F. Butt; Bo Peng; Majid Manzoor; Shamas Tabraiz
+        - ResearchGate Preprint
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: "A Wavelet-Enhanced CNN for Robust Hyperspectral Tumor Classification"
+      year: 2025
+      institution: Cluster Computing (Springer)
       description:
+        - Authors: M.H.F. Butt; Peng Bo; Majid Manzoor; Rehan Tariq; Farhan Aadil
+        - Status: Under Review
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+# ------------------------------------------------------
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Agri-SenseBot — Autonomous Farm Vehicle System
+      year: 2024–Present
+      institution: Chinese Research Institute of Land and Big Data (CRILBD)
+      description:
+        - Developed end-to-end pipeline for lane detection, obstacle recognition, and navigation using camera-only perception.
+        - Integrated trajectory planning and GPS navigation for real-time deployment.
+        - Achieved 35 FPS inference on edge devices using ONNX and TensorRT optimizations.
 
+    - title: Real-time Object Detection for Autonomous Driving (FYP)
+      year: 2022
+      description:
+        - Implemented YOLOv5 and SSD for real-time vehicle and object detection.
+        - Trained models on BDD100K dataset and tested on real driving video streams.
+
+# ------------------------------------------------------
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Computer Vision Engineer
+      institution: Eziline Software House, Rawalpindi, Pakistan
+      year: Jan 2023 – Aug 2023
+      description:
+        - Built and deployed end-to-end vision pipelines using PyTorch, ONNX, and TensorRT.
+        - Performed feature extraction, model training, and performance optimization.
+        - Integrated deep learning models into real-world applications on embedded systems.
+
+# ------------------------------------------------------
+- title: Skills
+  type: list
+  contents:
+    - **Programming:** Python, C++
+    - **Deep Learning:** PyTorch, ONNX, TensorRT
+    - **Computer Vision:** OpenCV, PIL, Scikit-image
+    - **Tools & Platforms:** Docker, Git, CARLA, Hydra
+    - **Research Tools:** LaTeX/Overleaf, Jupyter, Matplotlib, Seaborn
+
+# ------------------------------------------------------
+- title: Language Skills
+  type: map
+  contents:
+    - name: Urdu
+      value: Native
+    - name: English
+      value: B2 Listening, B2 Reading, B2 Writing, B2 Speaking Interaction, B1 Speaking Production
+    - name: Chinese (HSK3)
+      value: B1 Listening, B1 Reading, A2 Writing, A2 Speaking
+
+# ------------------------------------------------------
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Southwest Jiaotong University Presidential Scholarship (Fully Funded)
+    - year: 2022
       items:
-        - Max Planck Medal
+        - Gold Medalist, Bachelor of Science in Computer Science
 
-- title: Academic Interests
-  type: nested_list
+# ------------------------------------------------------
+- title: Recommendations
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Mr. Jianbo Li — Supervisor
+      year: 
+      description:
+        - Email: 25862827@qq.com
+        - Phone: +86 13881829636
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Dr. Muhammad Hassaan Farooq Butt — Research Mentor
+      year:
+      description:
+        - Email: mubut0522@nmbu.no
+        - Phone: +47 91264507
+
+    - title: Dr. Inam-Ullah — Professor
+      year:
+      description:
+        - Email: sahinam@gmail.com
+        - Phone: +60 1140780560

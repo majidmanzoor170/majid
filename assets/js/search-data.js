@@ -405,7 +405,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/majid/books/the_godfather/";
-            },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
+            },},{id: "news-i-joined-the-chinese-research-institute-of-land-amp-amp-big-data-crilbd-as-a-graduate-researcher-focusing-on-deep-learning-computer-vision-and-autonomous-systems",
+          title: 'I joined the Chinese Research Institute of Land &amp;amp;amp; Big Data (CRILBD) as...',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
           title: '📝 Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles”...',
           description: "",
           section: "News",handler: () => {

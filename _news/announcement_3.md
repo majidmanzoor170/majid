@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "Our paper accepted to ICCWAMTIP 2024"
-date: "2015-11-07 16:11:00 -0400"
+title: "🧪 New Preprint: GLoSSFormer for Hyperspectral Forensic Imaging"
+date: "2025-02-20 16:11:00 -0400"
 inline: true
 related_posts: false
 ---
+Our preprint **“Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging”** is now available online.
 
-Our paper titled **"Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles"** has been accepted to ICCWAMTIP 2024
-   
+This work introduces **GLoSSFormer**, a compact spatial–spectral transformer designed for accurate, non-destructive forensic stain identification using hyperspectral imaging. The model leverages **gated local and spectral self-attention** to effectively fuse global spatial context with fine spectral features.
+
+The framework achieves **98.53% accuracy** on the HyperBlood dataset, outperforming state-of-the-art methods in distinguishing blood from visually similar substances such as artificial blood, tomato concentrate, beetroot juice, and various paints.
+
+A full-text version is available on **SSRN (5334108)**.
+

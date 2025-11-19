@@ -1,14 +1,13 @@
 github_users:
   - majidmanzoor170
-  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - majidmanzoor170/lane-and-obstacle-detection
+  - majidmanzoor170/majidmanzoor170
+  - majidmanzoor170/YOLO11-lane-obstacle-detection-for-AVs
+  - majidmanzoor170/majid
+  - shamastabraiz/disaster_vit
+  - majidmanzoor170/ann-on-mnist-dataset-using-pytorch
+  

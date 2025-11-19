@@ -95,11 +95,11 @@
 - title: Skills
   type: list
   contents:
-    - **Programming:** Python, C++
-    - **Deep Learning:** PyTorch, ONNX, TensorRT
-    - **Computer Vision:** OpenCV, PIL, Scikit-image
-    - **Tools & Platforms:** Docker, Git, CARLA, Hydra
-    - **Research Tools:** LaTeX/Overleaf, Jupyter, Matplotlib, Seaborn
+    - "**Programming:** Python, C++"
+    - "**Deep Learning:** PyTorch, ONNX, TensorRT"
+    - "**Computer Vision:** OpenCV, PIL, Scikit-image"
+    - "**Tools & Platforms:** Docker, Git, CARLA, Hydra"
+    - "**Research Tools:** LaTeX/Overleaf, Jupyter, Matplotlib, Seaborn"
 
 # ------------------------------------------------------
 - title: Language Skills
@@ -123,24 +123,3 @@
       items:
         - Gold Medalist, Bachelor of Science in Computer Science
 
-# ------------------------------------------------------
-- title: Recommendations
-  type: time_table
-  contents:
-    - title: Mr. Jianbo Li — Supervisor
-      year: 
-      description:
-        - Email: 25862827@qq.com
-        - Phone: +86 13881829636
-
-    - title: Dr. Muhammad Hassaan Farooq Butt — Research Mentor
-      year:
-      description:
-        - Email: mubut0522@nmbu.no
-        - Phone: +47 91264507
-
-    - title: Dr. Inam-Ullah — Professor
-      year:
-      description:
-        - Email: sahinam@gmail.com
-        - Phone: +60 1140780560

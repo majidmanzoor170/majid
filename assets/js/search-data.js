@@ -410,8 +410,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
-            },},{id: "news-new-preprint-glossformer-for-hyperspectral-forensic-imaging",
-          title: '🧪 New Preprint: GLoSSFormer for Hyperspectral Forensic Imaging',
+            },},{id: "news-new-preprint-spatial-spectral-transformer-with-gated-local-and-spectral-self-attention-for-hyperspectral-forensic-imaging-is-now-available-online-click-here",
+          title: '🧪 New Preprint: **“Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_3/";

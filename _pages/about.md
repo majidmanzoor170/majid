@@ -45,17 +45,17 @@ I am actively seeking **PhD opportunities** where I can continue research in com
 
 ### 🔍 Research Interests
 
- 🖼️ Computer Vision and Scene Understanding  
- 🧠 Deep Learning for Visual Perception  
- 🚗 Autonomous Driving and Intelligent Vehicles  
-⚡ Lightweight and Efficient Neural Networks  
+   🖼️ Computer Vision and Scene Understanding  
+   🧠 Deep Learning for Visual Perception  
+   🚗 Autonomous Driving and Intelligent Vehicles  
+  ⚡ Lightweight and Efficient Neural Networks  
 
 ### 🛠 Technical Skills
 
- 💻 **Programming:** Python, C++  
- 🧠 **Frameworks:** PyTorch, ONNX, TensorRT  
- 👁️‍🗨️ **CV Tools:** OpenCV, scikit-image, PIL  
- 📊 **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
+   💻 **Programming:** Python, C++  
+   🧠 **Frameworks:** PyTorch, ONNX, TensorRT  
+   👁️‍🗨️ **CV Tools:** OpenCV, scikit-image, PIL  
+   📊 **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
 
 
 ### 📫 Get in Touch

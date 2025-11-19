@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has been accepted to ICCWAMTIP 2024"
+title: "📝 Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has been accepted to ICCWAMTIP 2024"
 date: 2024-12-14 16:11:00-0400
 inline: false
 related_posts: false

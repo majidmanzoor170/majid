@@ -11,9 +11,9 @@ profile:
   more_info: >
 
     <p><strong>Contact</strong><br>
-    Email: <a href="mailto:majid@my.swjtu.edu.cn">majid@my.swjtu.edu.cn</a><br>
-    Phone: <a href="+861325817446">+86 13258174461</a><br>
-    WeChat ID: majid_manzoor</p>
+   📧 Email: <a href="mailto:majid@my.swjtu.edu.cn">majid@my.swjtu.edu.cn</a><br>
+   📱 Phone: <a href="+861325817446">+86 13258174461</a><br>
+   💬 WeChat ID: majid_manzoor</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

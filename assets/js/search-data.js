@@ -411,12 +411,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
           title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
           description: "",
-          section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
-          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
-          description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
-            },},{id: "projects-project-1",
+            },},{id: "news-i-successfully-passed-the-hsk-3-chinese-proficiency-exam-achieving-a-solid-score-that-reflects-my-consistent-effort-in-learning-mandarin-this-milestone-strengthens-my-communication-ability-in-daily-life-and-academic-environments-in-china",
+          title: 'I successfully passed the HSK 3 Chinese Proficiency Exam, achieving a solid score...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {

@@ -405,15 +405,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/majid/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details-for-project",
-          title: 'A long announcement with details for project ---------------',
+            },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
+          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
+          description: "",
+          section: "News",},{id: "news-",
+          title: '',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
             },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
-          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
-          description: "",
-          section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
           title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
           description: "",
           section: "News",},{id: "projects-project-1",

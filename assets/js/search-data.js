@@ -408,15 +408,15 @@ ninja.data = [{
             },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
           title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
           description: "",
-          section: "News",},{id: "news-",
-          title: '',
+          section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
+          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
+          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/majid/news/announcement_2/";
-            },},{id: "news-our-paper-titled-obstalaneyolo-real-time-lane-and-obstacle-detection-for-autonomous-vehicles-has-been-accepted-to-iccwamtip-2024",
-          title: 'Our paper titled “Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles” has...',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {

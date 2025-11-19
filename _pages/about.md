@@ -12,13 +12,10 @@ profile:
 
     <p><strong>Contact</strong><br>
     <i class="fas fa-envelope" style="color:#EA4335;"></i>
-    Email:
-    <a href="mailto:majid@my.swjtu.edu.cn">majid@my.swjtu.edu.cn</a><br>
+    <a href="mailto:majidmanzoor170@gmail.com">majidmanzoor170@gmail.com</a><br>
     <i class="fas fa-phone-alt" style="color:#34A853;"></i>
-    Phone:
-    <a href="tel:+8613258174461">+86 132 5817 4461</a><br>
-    <i class="fab fa-weixin" style="color:#07C160;"></i>
-    WeChat ID: majid_manzoor
+    <a href="tel:+8613258174461">+861325817 4461</a><br>
+    <i class="fab fa-weixin" style="color:#07C160;"></i> majid_manzoor
     </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -44,21 +41,21 @@ I am interested in building lightweight perception frameworks for **autonomous d
 
 ### 🎓 PhD Opportunities
 
-I am actively seeking PhD opportunities where I can continue research in computer vision, autonomous robot systems, and efficient deep learning models.
+I am actively seeking **PhD opportunities** where I can continue research in computer vision, autonomous robot systems, and efficient deep learning models.
 
 ### 🔍 Research Interests
 
-- 🖼️ Computer Vision and Scene Understanding  
-- 🧠 Deep Learning for Visual Perception  
-- 🚗 Autonomous Driving and Intelligent Vehicles  
-- ⚡ Lightweight and Efficient Neural Networks  
+ 🖼️ Computer Vision and Scene Understanding  
+ 🧠 Deep Learning for Visual Perception  
+ 🚗 Autonomous Driving and Intelligent Vehicles  
+⚡ Lightweight and Efficient Neural Networks  
 
 ### 🛠 Technical Skills
 
-- 💻 **Programming:** Python, C++  
-- 🧠 **Frameworks:** PyTorch, ONNX, TensorRT  
-- 👁️‍🗨️ **CV Tools:** OpenCV, scikit-image, PIL  
-- 📊 **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
+ 💻 **Programming:** Python, C++  
+ 🧠 **Frameworks:** PyTorch, ONNX, TensorRT  
+ 👁️‍🗨️ **CV Tools:** OpenCV, scikit-image, PIL  
+ 📊 **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
 
 
 ### 📫 Get in Touch

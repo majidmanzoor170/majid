@@ -41,7 +41,6 @@ My work focuses on **computer vision**, **deep learning**, and **autonomous syst
 
 I am interested in building efficient vision models for real-world applications, such as autonomous driving, UAV-based perception, and intelligent sensing systems. I enjoy designing and implementing deep learning pipelines, optimizing models for deployment, and experimenting with modern architectures such as Vision Transformers and advanced detection networks.
 
----
 ### 🔍 Research Interests
 
 - Computer Vision and Scene Understanding  
@@ -49,7 +48,6 @@ I am interested in building efficient vision models for real-world applications,
 - Autonomous Driving and Intelligent Vehicles  
 - Lightweight and Efficient Neural Networks  
 
----
 ### 🛠 Technical Skills
 
 - **Programming:** Python, C++  
@@ -57,7 +55,6 @@ I am interested in building efficient vision models for real-world applications,
 - **CV Tools:** OpenCV, scikit-image, PIL  
 - **Other Tools:** Git, Docker, Jupyter, LaTeX/Overleaf  
 
----
 
 ### 📫 Get in Touch
 

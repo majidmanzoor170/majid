@@ -54,11 +54,29 @@
   selected    = {false}
 }
 
+@inproceedings{abbas2024visionxplore,
+  abbr        = {VisionXplore},
+  title       = {VisionXplore: Florence-2 for Robust Targeted Object Detection},
+  author      = {Abbas, Muhammad Haider and Zhang, Xinyou and Manzoor, Majid and Tabraiz, Shamas and Hassan, Irfan},
+  booktitle   = {2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
+  pages       = {1--4},
+  year        = {2024},
+  organization = {IEEE},
+  abstract    = {Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery rather than remote sensing (RS) images. The high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments. To address this limitation, we introduce VisionXplore which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7\% of the total model parameters, making the model efficient in limited resource environments. We validated this approach by fine-tuning the Florence-2 model on two publicly available RS datasets: Military-Object2 and SkyFusion. These datasets contain 16 distinct object classes for detection tasks. Using task-specific prompts to guide recognition, VisionXplore significantly improves OD accuracy while reducing training overhead.},
+  doi         = {10.1109/ICCWAMTIP64812.2024.10873770},
+  url         = {https://ieeexplore.ieee.org/document/10873770},
+  pdf         = {https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873770},
+  preview     = {visionxplore.png},
+  selected    = {true}
+}
+
+
+
 @INPROCEEDINGS{10873770,
   abbr={VisionXplore},
   title={VisionXplore: Florence-2 for Robust Targeted Object Detection},
-  Abstract={Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery data rather than Remote Sensing (RS) images. In VLMs, the high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments. 
-  To address this limitation, we introduce VisionXplore which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7% of the total model parameters, making the model efficient in limited resource environments. We validated this approach by finetuning the Florence-2 model on two publicly available RS datasets Military-Object2 and SkyFusion. These datasets contained objects of 16 distinct classes designed for Object Detection (OD) tasks. To ensure high-quality training data, we applied task-specific prompts to help the model recognize the objects in the imagery. Fine-tuning is performed on 1,929,928 out of 272,733,896 overall parameters without compromising results, which led to a considerable decrease in validation loss from 7.5 to 1.01 on the Military-Object2 dataset and from 8.83 to 0.39 on the SkyFusion dataset. VisionXplore improves the accuracy of OD while lowering the overhead in resource-limited environments.}
+  Abstract={Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery rather than remote sensing (RS) images. The high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments.
+  To address this limitation, we introduce VisionXplore which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7\% of the total model parameters, making the model efficient in limited resource environments. We validated this approach by fine-tuning the Florence-2 model on two publicly available RS datasets: Military-Object2 and SkyFusion. These datasets contain 16 distinct object classes for detection tasks. Using task-specific prompts to guide recognition, VisionXplore significantly improves OD accuracy while reducing training overhead.},
   author={Abbas, Muhammad Haider and Xinyou, Zhang and Manzoor, Majid and Tabraiz, Shamas and Hassan, Irfan},
   booktitle={2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
   pages={1--4},

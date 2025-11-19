@@ -25,7 +25,6 @@
   ORCID_id = {0009-0006-2412-5715}
 }
 
-
 @article{glossformer2025,
   abbr={GlossFormer},
   title={Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging},
@@ -39,9 +38,7 @@
   preview={glossformer.png},
   abstract={
     Hyperspectral imaging has garnered significant attention across diverse fields, including remote sensing, medical diagnostics, earth observation, mineral exploration, food quality assessment, and forensic science. Despite its potential, its applications in forensic investigations remain underexplored, with most of the existing analyses conducted in laboratory settings or performed manually. Bloodstain identification is a crucial component of forensic reconstruction, as it provides essential evidence in crime scenes and accidents. However, accurately differentiating blood from visually similar substances such as artificial blood, tomato concentrate, ketchup, beetroot juice, poster paint, and acrylic paint remains a persistent challenge. Moreover, conventional chemical-based detection methods often compromise subsequent DNA integrity, limiting downstream genetic analysis.
-    
     To overcome these limitations, we propose a non-destructive stain classification framework based on hyperspectral imaging, which preserves sample integrity and minimizes the influence of visual confounders. We introduce GLoSSFormer, a compact spatial-spectral transformer architecture that leverages a gated attention mechanism to adaptively fuse global spatial context with grouped spectral representations. The model incorporates a lightweight four-layer encoder and positional encoding to preserve spatial coherence while enhancing spectral discrimination. Extensive experiments were conducted on the publicly available HyperBlood dataset, demonstrating that GLoSSFormer achieves an overall accuracy of 98.53\%, surpassing state-of-the-art models in accurately identifying blood against challenging distractor substances.
-    
     These findings highlight the efficacy and reliability of GLoSSFormer as a robust tool for non-invasive hyperspectral forensic stain analysis, with promising implications for automated crime scene reconstruction and forensic diagnostics. The code will be available upon paper acceptance at https://github.com/MHassaanButt/GLoSSFormer.
   }
 }
@@ -60,6 +57,8 @@
 @INPROCEEDINGS{10873770,
   abbr={VisionXplore},
   title={VisionXplore: Florence-2 for Robust Targeted Object Detection},
+  Abstract={Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery data rather than Remote Sensing (RS) images. In VLMs, the high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments. 
+  To address this limitation, we introduce VisionXplore which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7% of the total model parameters, making the model efficient in limited resource environments. We validated this approach by finetuning the Florence-2 model on two publicly available RS datasets Military-Object2 and SkyFusion. These datasets contained objects of 16 distinct classes designed for Object Detection (OD) tasks. To ensure high-quality training data, we applied task-specific prompts to help the model recognize the objects in the imagery. Fine-tuning is performed on 1,929,928 out of 272,733,896 overall parameters without compromising results, which led to a considerable decrease in validation loss from 7.5 to 1.01 on the Military-Object2 dataset and from 8.83 to 0.39 on the SkyFusion dataset. VisionXplore improves the accuracy of OD while lowering the overhead in resource-limited environments.}
   author={Abbas, Muhammad Haider and Xinyou, Zhang and Manzoor, Majid and Tabraiz, Shamas and Hassan, Irfan},
   booktitle={2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
   pages={1--4},
@@ -76,6 +75,8 @@
   abbr={DisasterViT},
   title={DisasterViT: A Lightweight Vision Transformer for Disaster Classification},
   author={Tabraiz, Shamas and Haiyu, Huang and Hassan, Irfan and Manzoor, Majid and Abbas, Muhammad Haider},
+  Abstract={Natural disasters can cause catastrophic damage, and often strike unexpectedly, leaving communities vulnerable and disrupting critical infrastructure. Response authorities must quickly classify the disaster to mitigate its effects, which can be challenging because of transportation and communication breakdowns in affected areas. Unmanned Aerial Vehicles (UAVs) can be used for real-time surveillance in remote regions, capturing critical visuals that enable Computer Vision (CV) techniques to analyze and classify the disaster type, supporting timely response efforts. For the classification task, we proposed DisasterViT a lightweight Vision Transformer (ViT) with an External Attention (EA) mechanism, optimized for high performance.
+  DisasterViT was trained on a custom dataset of 3,720 images from four distinct disaster categories: cyclone, earthquake, flood, and wildfire, achieved an impressive overall accuracy of 91% in classifying diverse disaster scenarios.}
   booktitle={2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
   pages={1-5},
   year={2024},

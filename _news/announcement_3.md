@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🧪 New Preprint: **“Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging”** is now available online. Click here"
+title: "🧪 New Preprint: “Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging” is now available online. Click here"
 date: "2025-02-20 16:11:00 -0400"
 inline: false
 related_posts: false

@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "A curated collection of my research and development projects, including work on computer vision, autonomous systems, hyperspectral imaging, and efficient deep learning models. These repositories reflect my ongoing efforts in building lightweight, real-time, and deployable AI systems.",
+          description: "A curated collection of my research and development projects, including work on computer vision, autonomous systems, hyperspectral imaging, and efficient deep learning models.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/majid/repositories/";

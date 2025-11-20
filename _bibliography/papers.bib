@@ -1,57 +1,50 @@
----
 @INPROCEEDINGS{10873687,
-  abbr={ObstaLaneYolo},
-  title={Obstalaneyolo: Real-Time Lane and Obstacle Detection for Autonomous Vehicles},
-  author={Manzoor, Majid and Li, Jianbo and Zhou, Lvxin and Zeng, Aiping and Abbas, Muhammad Haider and Tabraiz, Shamas and Hassan, Irfan},
-  abstract={In recent years approximately $30 billion has been invested in the development of Autonomous Vehicles (AVs). The increasing adoption of AVs demands precise Lane and Obstacle Detection (LOD) to ensure safe and reliable transportation. This paper aims to propose a monocular camera-based LOD method for Autonomous Driving (AD). We employed YOLO, for real-time object detection while Convolutional Neural Networks (CNNs) extract lane boundaries for accurate road mapping. Our approach utilizes Intersection over Union (IoU) for effective object tracking, allowing us to associate detected vehicles across frames and enhance Lane Detection (LD) accuracy. Dash camera's data provides a top view of the scene, while adaptive thresholding technique with sliding windows ensures reliable detection. YOLO11s improves real-time detection, and achieved a mAP50 of 0.818 over YOLOv5s (0.691) and YOLOv8s (0.687), demonstrating the effectiveness of ObstaLaneYOLO.
-   },
-  booktitle={2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
-  location={Chengdu, China},
-  volume={},
-  pages={1-4},
-  year={2024},
-  month={December},
-  publisher=IEEE,
-  doi={10.1109/ICCWAMTIP64812.2024.10873687},
-  url={https://ieeexplore.ieee.org/document/10873687},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873687&ref=},
-  dimensions={true},
-  google_scholar_id={KmJpv4UAAAAJ&hl},
-  additional_info={. *More Information* can be [found here](https://ieeexplore.ieee.org/document/10873687)},
-  annotation={* Example use of superscripts<br>† Majid Manzoor},
-  selected={true},
-  preview = {obstalane.png},
-  ORCID_id = {0009-0006-2412-5715}
+  abbr        = {ObstaLaneYOLO},
+  title       = {ObstaLaneYOLO: Real-Time Lane and Obstacle Detection for Autonomous Vehicles},
+  author      = {Manzoor, Majid and Li, Jianbo and Zhou, Lvxin and Zeng, Aiping and Abbas, Muhammad Haider and Tabraiz, Shamas and Hassan, Irfan},
+  abstract    = {In recent years approximately \$30 billion has been invested in the development of Autonomous Vehicles (AVs). The increasing adoption of AVs demands precise Lane and Obstacle Detection (LOD) to ensure safe and reliable transportation. This paper aims to propose a monocular camera-based LOD method for Autonomous Driving (AD). We employ YOLO for real-time object detection while Convolutional Neural Networks (CNNs) extract lane boundaries for accurate road mapping. Our approach utilizes Intersection over Union (IoU) for effective object tracking, allowing us to associate detected vehicles across frames and enhance Lane Detection (LD) accuracy. Dash camera data provides a top view of the scene, while an adaptive thresholding technique with sliding windows ensures reliable detection. YOLO11s improves real-time detection and achieves a mAP50 of 0.818 over YOLOv5s (0.691) and YOLOv8s (0.687), demonstrating the effectiveness of ObstaLaneYOLO.},
+  booktitle   = {2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
+  location    = {Chengdu, China},
+  pages       = {1-4},
+  year        = {2024},
+  month       = {December},
+  publisher   = {IEEE},
+  doi         = {10.1109/ICCWAMTIP64812.2024.10873687},
+  url         = {https://ieeexplore.ieee.org/document/10873687},
+  html        = {https://ieeexplore.ieee.org/document/10873687},
+  pdf         = {https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873687&ref=},
+  dimensions  = {true},
+  google_scholar_id = {KmJpv4UAAAAJ&hl},
+  additional_info   = {. *More Information* can be [found here](https://ieeexplore.ieee.org/document/10873687)},
+  annotation  = {* Example use of superscripts<br>† Majid Manzoor},
+  selected    = {true},
+  preview     = {obstalane.png},
+  ORCID_id    = {0009-0006-2412-5715}
 }
 
 @article{glossformer2025,
-  abbr={GlossFormer},
-  title={Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging},
-  author={Butt, Muhammad Hassaan Farooq and Peng, Bo and Manzoor, Majid and Tabraiz, Shamas},
-  journal={SSRN Electronic Journal},
-  year={2025},
-  doi={10.2139/ssrn.5334108},
-  url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5334108},
-  html={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5334108},
-  pdf={https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID5334108_code.pdf},
-  preview={glossformer.png},
-  abstract={
-    Hyperspectral imaging has garnered significant attention across diverse fields, including remote sensing, medical diagnostics, earth observation, mineral exploration, food quality assessment, and forensic science. Despite its potential, its applications in forensic investigations remain underexplored, with most of the existing analyses conducted in laboratory settings or performed manually. Bloodstain identification is a crucial component of forensic reconstruction, as it provides essential evidence in crime scenes and accidents. However, accurately differentiating blood from visually similar substances such as artificial blood, tomato concentrate, ketchup, beetroot juice, poster paint, and acrylic paint remains a persistent challenge. Moreover, conventional chemical-based detection methods often compromise subsequent DNA integrity, limiting downstream genetic analysis.
-    To overcome these limitations, we propose a non-destructive stain classification framework based on hyperspectral imaging, which preserves sample integrity and minimizes the influence of visual confounders. We introduce GLoSSFormer, a compact spatial-spectral transformer architecture that leverages a gated attention mechanism to adaptively fuse global spatial context with grouped spectral representations. The model incorporates a lightweight four-layer encoder and positional encoding to preserve spatial coherence while enhancing spectral discrimination. Extensive experiments were conducted on the publicly available HyperBlood dataset, demonstrating that GLoSSFormer achieves an overall accuracy of 98.53\%, surpassing state-of-the-art models in accurately identifying blood against challenging distractor substances.
-    These findings highlight the efficacy and reliability of GLoSSFormer as a robust tool for non-invasive hyperspectral forensic stain analysis, with promising implications for automated crime scene reconstruction and forensic diagnostics. The code will be available upon paper acceptance at https://github.com/MHassaanButt/GLoSSFormer.
-  }
+  abbr     = {GLoSSFormer},
+  title    = {Spatial--Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging},
+  author   = {Butt, Muhammad Hassaan Farooq and Peng, Bo and Manzoor, Majid and Tabraiz, Shamas},
+  journal  = {SSRN Electronic Journal},
+  year     = {2025},
+  doi      = {10.2139/ssrn.5334108},
+  url      = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5334108},
+  html     = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5334108},
+  pdf      = {https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID5334108_code.pdf},
+  preview  = {glossformer.png},
+  abstract = {Hyperspectral imaging has garnered significant attention across diverse fields, including remote sensing, medical diagnostics, earth observation, mineral exploration, food quality assessment, and forensic science. Despite its potential, its applications in forensic investigations remain underexplored, with most existing analyses conducted in laboratory settings or performed manually. Bloodstain identification is a crucial component of forensic reconstruction, as it provides essential evidence in crime scenes and accidents. However, accurately differentiating blood from visually similar substances such as artificial blood, tomato concentrate, ketchup, beetroot juice, poster paint, and acrylic paint remains a persistent challenge. Moreover, conventional chemical-based detection methods often compromise subsequent DNA integrity, limiting downstream genetic analysis. To overcome these limitations, we propose a non-destructive stain classification framework based on hyperspectral imaging, which preserves sample integrity and minimizes the influence of visual confounders. We introduce GLoSSFormer, a compact spatial-spectral transformer architecture that leverages a gated attention mechanism to adaptively fuse global spatial context with grouped spectral representations. The model incorporates a lightweight four-layer encoder and positional encoding to preserve spatial coherence while enhancing spectral discrimination. Extensive experiments on the publicly available HyperBlood dataset demonstrate that GLoSSFormer achieves an overall accuracy of 98.53\%, surpassing state-of-the-art models in accurately identifying blood against challenging distractor substances. These findings highlight the efficacy and reliability of GLoSSFormer as a robust tool for non-invasive hyperspectral forensic stain analysis, with promising implications for automated crime scene reconstruction and forensic diagnostics.}
 }
 
 @article{butt2025waveletcnn,
-  abbr        = {Wavelet-CNN},
-  title       = {A Wavelet-Enhanced CNN for Robust Hyperspectral Tumor Classification},
-  author      = {Butt, Muhammad Hassaan Farooq and Peng, Bo and Manzoor, Majid and Tariq, Rehan and Aadil, Farhan},
-  journal     = {Cluster Computing},
-  year        = {2025},
-  preview = {waveletcnn.png},
-  note        = {Under review},
-  selected    = {false}
+  abbr     = {Wavelet-CNN},
+  title    = {A Wavelet-Enhanced CNN for Robust Hyperspectral Tumor Classification},
+  author   = {Butt, Muhammad Hassaan Farooq and Peng, Bo and Manzoor, Majid and Tariq, Rehan and Aadil, Farhan},
+  journal  = {Cluster Computing},
+  year     = {2025},
+  preview  = {waveletcnn.png},
+  note     = {Under review},
+  selected = {false}
 }
 
 @inproceedings{abbas2024visionxplore,
@@ -62,55 +55,29 @@
   pages       = {1--4},
   year        = {2024},
   organization = {IEEE},
-  abstract    = {Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery rather than remote sensing (RS) images. The high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments. To address this limitation, we introduce VisionXplore which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7\% of the total model parameters, making the model efficient in limited resource environments. We validated this approach by fine-tuning the Florence-2 model on two publicly available RS datasets: Military-Object2 and SkyFusion. These datasets contain 16 distinct object classes for detection tasks. Using task-specific prompts to guide recognition, VisionXplore significantly improves OD accuracy while reducing training overhead.},
+  abstract    = {Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery rather than remote sensing (RS) images. The high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments. To address this limitation, we introduce VisionXplore, which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7\% of the total model parameters, making the model efficient in limited-resource environments. We validate this approach by fine-tuning the Florence-2 model on two publicly available RS datasets, Military-Object2 and SkyFusion, which contain 16 distinct object classes for detection tasks. Using task-specific prompts to guide recognition, VisionXplore significantly improves object detection accuracy while reducing training overhead.},
   doi         = {10.1109/ICCWAMTIP64812.2024.10873770},
   url         = {https://ieeexplore.ieee.org/document/10873770},
+  html        = {https://ieeexplore.ieee.org/document/10873770},
   pdf         = {https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873770},
   preview     = {visionxplore.png},
   selected    = {true}
 }
 
-@INPROCEEDINGS{10873770,
-  abbr={VisionXplore},
-  title={VisionXplore: Florence-2 for Robust Targeted Object Detection},
-  Abstract={Recent advancements in Vision-Language Models (VLMs) have gained significant attention for their potential to revolutionize visual representation by integrating textual and visual data in a self-supervised manner. However, most of these models are trained on conventional imagery rather than remote sensing (RS) images. The high computational cost, driven by a large number of training parameters, poses challenges in resource-constrained environments.
-  To address this limitation, we introduce VisionXplore which employs Low-Rank Adaptation (LoRA) and reduces the number of trainable parameters to less than 0.7\% of the total model parameters, making the model efficient in limited resource environments. We validated this approach by fine-tuning the Florence-2 model on two publicly available RS datasets: Military-Object2 and SkyFusion. These datasets contain 16 distinct object classes for detection tasks. Using task-specific prompts to guide recognition, VisionXplore significantly improves OD accuracy while reducing training overhead.},
-  author={Abbas, Muhammad Haider and Xinyou, Zhang and Manzoor, Majid and Tabraiz, Shamas and Hassan, Irfan},
-  booktitle={2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
-  pages={1--4},
-  year={2024},
-  publisher={IEEE},
-  doi={10.1109/ICCWAMTIP64812.2024.10873770},
-  url={https://ieeexplore.ieee.org/document/10873770},
-  html={https://ieeexplore.ieee.org/document/10873770},
-  pdf={https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873770&ref=},
-  preview={visionxplore.png}
+@inproceedings{tabraiz2024disastervit,
+  abbr        = {DisasterViT},
+  title       = {DisasterViT: A Lightweight Vision Transformer for Disaster Classification},
+  author      = {Tabraiz, Shamas and Huang, Haiyu and Hassan, Irfan and Manzoor, Majid and Abbas, Muhammad Haider},
+  booktitle   = {2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
+  pages       = {1--5},
+  year        = {2024},
+  month       = {December},
+  publisher   = {IEEE},
+  doi         = {10.1109/ICCWAMTIP64812.2024.10873725},
+  url         = {https://ieeexplore.ieee.org/document/10873725},
+  html        = {https://ieeexplore.ieee.org/document/10873725},
+  pdf         = {https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873725&ref=},
+  preview     = {disastervit.png},
+  selected    = {true},
+  abstract    = {Natural disasters can cause catastrophic damage and often strike unexpectedly, leaving communities vulnerable and disrupting critical infrastructure. Response authorities must quickly classify the disaster to mitigate its effects, which can be challenging because of transportation and communication breakdowns in affected areas. Unmanned Aerial Vehicles (UAVs) can be used for real-time surveillance in remote regions, capturing critical visuals that enable Computer Vision (CV) techniques to analyze and classify the disaster type, supporting timely response efforts. For the classification task, we propose DisasterViT, a lightweight Vision Transformer (ViT) with an External Attention (EA) mechanism optimized for high performance. DisasterViT is trained on a custom dataset of 3,720 images from four distinct disaster categories: cyclone, earthquake, flood, and wildfire, and achieves an overall accuracy of 91\% in classifying diverse disaster scenarios.}
 }
-
-@INPROCEEDINGS{10873725,
-  abbr={DisasterViT},
-  title={DisasterViT: A Lightweight Vision Transformer for Disaster Classification},
-  author={Tabraiz, Shamas and Haiyu, Huang and Hassan, Irfan and Manzoor, Majid and Abbas, Muhammad Haider},
-  Abstract={Natural disasters can cause catastrophic damage, and often strike unexpectedly, leaving communities vulnerable and disrupting critical infrastructure. Response authorities must quickly classify the disaster to mitigate its effects, which can be challenging because of transportation and communication breakdowns in affected areas. Unmanned Aerial Vehicles (UAVs) can be used for real-time surveillance in remote regions, capturing critical visuals that enable Computer Vision (CV) techniques to analyze and classify the disaster type, supporting timely response efforts. For the classification task, we proposed DisasterViT a lightweight Vision Transformer (ViT) with an External Attention (EA) mechanism, optimized for high performance.
-  DisasterViT was trained on a custom dataset of 3,720 images from four distinct disaster categories: cyclone, earthquake, flood, and wildfire, achieved an impressive overall accuracy of 91% in classifying diverse disaster scenarios.}
-  booktitle={2024 21st International Computer Conference on Wavelet Active Media Technology and Information Processing (ICCWAMTIP)},
-  pages={1-5},
-  year={2024},
-  month={December},
-  publisher={IEEE},
-  doi={10.1109/ICCWAMTIP64812.2024.10873725},
-  url={https://ieeexplore.ieee.org/document/10873725},
-  html={https://ieeexplore.ieee.org/document/10873725},
-  pdf={https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10873725&ref=},
-  preview={disastervit.png},
-  selected={true}
-}
-
-
-
-
-
-
-
-
-

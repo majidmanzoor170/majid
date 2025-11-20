@@ -1,3 +1,13 @@
+# ------------------------------------------------------
+- title: "👨‍💻 Professional Summary"
+  type: list
+  contents:
+    - "Master's student in Computer Science & Technology at Southwest Jiaotong University, working on efficient deep learning, computer vision, and autonomous systems."
+    - "Experienced in object detection, Vision pipelines, and real-time model deployment on embedded and edge devices."
+    - "<b>Author</b> of an IEEE conference paper and <b>co-author</b> of multiple hyperspectral imaging research articles."
+    - "Motivated to pursue a <b>PhD</b> in computer vision, AI, and robotics."
+
+# ------------------------------------------------------
 - title: "👤 General Information"
   type: map
   contents:
@@ -13,8 +23,31 @@
       value: majidmanzoor170@gmail.com
     - name: Phone
       value: +86 13258174461
+    - name: Website
+      value: "https://majidmanzoor170.github.io/majid/"
+    - name: GitHub
+      value: "https://github.com/majidmanzoor170"
     - name: LinkedIn
-      value: manzoormajid
+      value: "https://www.linkedin.com/in/manzoormajid/"
+
+# ------------------------------------------------------
+- title: "🔬 Research Interests"
+  type: list
+  contents:
+    - "Computer Vision — Object detection, lane detection, obstacle detection, segmentation"
+    - "Efficient Deep Learning — Model optimization, real-time inference, ONNX/TensorRT deployment"
+    - "Autonomous Systems — Vision-based perception, trajectory guidance"
+    - "Hyperspectral Imaging — Spatial–spectral modeling and analysis"
+
+# ------------------------------------------------------
+- title: "🧠 Technical Expertise"
+  type: list
+  contents:
+    - "<b>Real-Time Deployment:</b> TensorRT, ONNX Runtime, mixed precision"
+    - "<b>Deep Learning:</b> PyTorch, convolutional networks, transformers (basic)"
+    - "<b>Detection Frameworks:</b> YOLO family, SSD, custom lightweight models"
+    - "<b>Data & Pipelines:</b> dataset creation, augmentation, model evaluation"
+    - "<b>Tools:</b> Docker, Linux, Git, Hydra, Jupyter, CARLA"
 
 # ------------------------------------------------------
 - title: "🎓 Education"
@@ -22,7 +55,7 @@
   contents:
     - title: Master of Science in Computer Science & Technology
       institution: Southwest Jiaotong University (SWJTU), Chengdu, China
-      year: 2023–2026 (expected)
+      year: 2023–2026 (EXPECTED)
       description:
         - "CGPA: 3.55 / 4.0"
         - "Thesis: Enhancing Autonomous Driving with Vision-Based Perception and Trajectory Guidance"
@@ -32,7 +65,7 @@
       institution: Mohi-ud-Din Islamic University, Nerian Sharif, AJ&K, Pakistan
       year: 2018–2022
       description:
-        - "CGPA: 3.73 / 4.0 (Gold Medalist)"
+        - "CGPA: 3.73 / 4.0  <b>(Gold Medalist)</b>"
         - "Thesis: Real-time Object Detection for Autonomous Driving using Deep Learning"
 
 # ------------------------------------------------------
@@ -43,7 +76,7 @@
       year: 2024
       institution: IEEE ICCWAMTIP 2024, Chengdu, China
       description:
-        - "Authors: Majid Manzoor; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz"
+        - "Authors: <b> Majid Manzoor </b>; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz"
         - "Publisher: IEEE"
         - "DOI: 10.1109/ICCWAMTIP64812.2024.10873687"
 
@@ -51,33 +84,34 @@
       year: 2025
       institution: Expert Systems with Applications (Elsevier)
       description:
-        - "Authors: M.H.F. Butt; Bo Peng; Majid Manzoor; Shamas Tabraiz"
-        - "Note: ResearchGate preprint available"
+        - "Authors: M.H.F. Butt; Bo Peng; <b> Majid Manzoor </b>; Shamas Tabraiz"
+        - "Status: Research article"
 
     - title: "A Wavelet-Enhanced CNN for Robust Hyperspectral Tumor Classification"
       year: 2025
       institution: Cluster Computing (Springer)
       description:
-        - "Authors: M.H.F. Butt; Peng Bo; Majid Manzoor; Rehan Tariq; Farhan Aadil"
+        - "Authors: M.H.F. Butt; Peng Bo; <b>Majid Manzoor</b>; Rehan Tariq; Farhan Aadil"
         - "Status: Under review"
 
 # ------------------------------------------------------
-- title: "📂 Projects"
+- title: "📘 Projects"
   type: time_table
   contents:
     - title: Agri-SenseBot — Autonomous Farm Vehicle System
       year: 2024–Present
       institution: Chinese Research Institute of Land and Big Data (CRILBD)
       description:
-        - "Developed an end-to-end pipeline for lane detection, obstacle recognition, and navigation using camera-only perception."
-        - "Integrated trajectory planning and GPS navigation for real-time deployment in outdoor farm environments."
-        - "Achieved ~35 FPS inference on edge devices using ONNX and TensorRT optimizations."
+        - "Developed a camera-based pipeline for lane detection, obstacle detection, and navigation."
+        - "Integrated trajectory planning and GPS-based guidance."
+        - "Achieved ~35 FPS realtime inference on edge hardware using TensorRT and ONNX optimizations."
 
     - title: Real-time Object Detection for Autonomous Driving (FYP)
       year: 2022
+      institution: Mohi-ud-Din Islamic University
       description:
-        - "Implemented YOLOv5 and SSD models for real-time vehicle and object detection."
-        - "Trained models on the BDD100K dataset and tested on real driving video streams."
+        - "Implemented YOLOv5 and SSD models for real-time vehicle and obstacle detection."
+        - "Trained models on BDD100K and deployed on real driving footage."
 
 # ------------------------------------------------------
 - title: "💼 Work Experience"
@@ -87,19 +121,19 @@
       institution: Eziline Software House, Rawalpindi, Pakistan
       year: Jan 2023 – Aug 2023
       description:
-        - "Built and deployed end-to-end computer vision pipelines using PyTorch, ONNX, and TensorRT."
-        - "Performed data preprocessing, feature extraction, model training, and performance optimization."
-        - "Integrated deep learning models into production-ready applications on embedded and edge devices."
+        - "Developed and deployed end-to-end computer vision systems using PyTorch."
+        - "Performed training, optimization, and model integration on embedded systems."
+        - "Collaborated with development teams to deliver AI-based solutions."
 
 # ------------------------------------------------------
 - title: "🛠️ Skills"
   type: list
   contents:
-    - "**Programming:** Python, C++"
-    - "**Deep Learning Frameworks:** PyTorch, TensorRT, ONNX Runtime"
-    - "**Computer Vision:** OpenCV, scikit-image, PIL"
-    - "**Tools & Platforms:** Docker, Git, Linux, CARLA simulator, Hydra configs"
-    - "**Research & Documentation:** LaTeX / Overleaf, Jupyter, Matplotlib, Seaborn"
+    - "💻 <b>Programming:</b> Python · C++"
+    - "🤖 <b>Deep Learning:</b> PyTorch · TensorRT · ONNX Runtime"
+    - "📷 <b>Computer Vision:</b> OpenCV · scikit-image · PIL"
+    - "🧰 <b>Tools & DevOps:</b> Docker · Git · Linux · Hydra · CARLA"
+    - "📚 <b>Research Tools:</b> Jupyter · LaTeX/Overleaf · Matplotlib · Seaborn"
 
 # ------------------------------------------------------
 - title: "🌐 Language Skills"
@@ -110,7 +144,7 @@
     - name: English
       value: Fluent
     - name: Chinese (HSK3)
-      value: Good
+      value: Intermediate
 
 # ------------------------------------------------------
 - title: "🏅 Honors and Awards"
@@ -118,7 +152,24 @@
   contents:
     - year: 2023
       items:
-        - Southwest Jiaotong University Presidential Scholarship (Fully Funded)
+        - "Southwest Jiaotong University Presidential Scholarship (Fully Funded)"
     - year: 2022
       items:
-        - Gold Medalist, Bachelor of Science in Computer Science
+        - "Gold Medalist, BS Computer Science"
+
+# ------------------------------------------------------
+- title: "🚀 Achievements"
+  type: list
+  contents:
+    - "Published in IEEE; co-author in Elsevier and Springer venues."
+    - "Developed real-time AI pipelines achieving up to 35 FPS on embedded devices."
+    - "Created multi-stage CV systems for autonomous vehicle applications."
+    - "Maintaining multiple open-source CV/AI repositories."
+
+# ------------------------------------------------------
+- title: "🏆 Conferences & Workshops"
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - "Presented ObstaLaneYOYO at ICCWAMTIP 2024, Chengdu, China"

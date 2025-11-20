@@ -2,26 +2,13 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: A curated collection of my research and development projects, including work on computer vision, autonomous systems, hyperspectral imaging, and efficient deep learning models.
+description: >
+  I enjoy building practical AI systems for computer vision, autonomous systems, and lightweight deep learning. Most of my work focuses on efficient, deployable models for real-world scenarios.
 nav: true
 nav_order: 4
 ---
 
 A snapshot of my GitHub activity and repositories.
-
----
-
-{% if site.data.repositories.github_users %}
-
-### GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
-{% endif %}
 
 ---
 

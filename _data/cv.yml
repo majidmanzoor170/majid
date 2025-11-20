@@ -1,4 +1,4 @@
-- title: General Information
+- title: "👤 General Information"
   type: map
   contents:
     - name: Full Name
@@ -17,92 +17,92 @@
       value: manzoormajid
 
 # ------------------------------------------------------
-- title: Education
+- title: "🎓 Education"
   type: time_table
   contents:
     - title: Master of Science in Computer Science & Technology
       institution: Southwest Jiaotong University (SWJTU), Chengdu, China
       year: 2023–2026 (expected)
       description:
-        - CGPA: 3.55 / 4.0
-        - Thesis: Enhancing Autonomous Driving with Vision-Based Perception and Trajectory Guidance
-        - Relevant Coursework: Artificial Intelligence, Deep Learning, Advanced Computer Vision, Pattern Recognition, Robotics
+        - "CGPA: 3.55 / 4.0"
+        - "Thesis: Enhancing Autonomous Driving with Vision-Based Perception and Trajectory Guidance"
+        - "Relevant Coursework: Artificial Intelligence, Deep Learning, Advanced Computer Vision, Pattern Recognition, Robotics"
 
     - title: Bachelor of Science in Computer Science
       institution: Mohi-ud-Din Islamic University, Nerian Sharif, AJ&K, Pakistan
       year: 2018–2022
       description:
-        - CGPA: 3.73 / 4.0 (Gold Medalist)
-        - Thesis: Real-time Object Detection for Autonomous Driving using Deep Learning
+        - "CGPA: 3.73 / 4.0 (Gold Medalist)"
+        - "Thesis: Real-time Object Detection for Autonomous Driving using Deep Learning"
 
 # ------------------------------------------------------
-- title: Publications
+- title: "📄 Publications"
   type: time_table
   contents:
     - title: "ObstaLaneYOLO: Real-Time Lane and Obstacle Detection for Autonomous Vehicles"
       year: 2024
       institution: IEEE ICCWAMTIP 2024, Chengdu, China
       description:
-        - Authors: Majid Manzoor; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz
-        - Publisher: IEEE
-        - DOI: 10.1109/ICCWAMTIP64812.2024.10873687
+        - "Authors: Majid Manzoor; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz"
+        - "Publisher: IEEE"
+        - "DOI: 10.1109/ICCWAMTIP64812.2024.10873687"
 
     - title: "Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging"
       year: 2025
       institution: Expert Systems with Applications (Elsevier)
       description:
-        - Authors: M.H.F. Butt; Bo Peng; Majid Manzoor; Shamas Tabraiz
-        - ResearchGate Preprint
+        - "Authors: M.H.F. Butt; Bo Peng; Majid Manzoor; Shamas Tabraiz"
+        - "Note: ResearchGate preprint available"
 
     - title: "A Wavelet-Enhanced CNN for Robust Hyperspectral Tumor Classification"
       year: 2025
       institution: Cluster Computing (Springer)
       description:
-        - Authors: M.H.F. Butt; Peng Bo; Majid Manzoor; Rehan Tariq; Farhan Aadil
-        - Status: Under Review
+        - "Authors: M.H.F. Butt; Peng Bo; Majid Manzoor; Rehan Tariq; Farhan Aadil"
+        - "Status: Under review"
 
 # ------------------------------------------------------
-- title: Projects
+- title: "📂 Projects"
   type: time_table
   contents:
     - title: Agri-SenseBot — Autonomous Farm Vehicle System
       year: 2024–Present
       institution: Chinese Research Institute of Land and Big Data (CRILBD)
       description:
-        - Developed end-to-end pipeline for lane detection, obstacle recognition, and navigation using camera-only perception.
-        - Integrated trajectory planning and GPS navigation for real-time deployment.
-        - Achieved 35 FPS inference on edge devices using ONNX and TensorRT optimizations.
+        - "Developed an end-to-end pipeline for lane detection, obstacle recognition, and navigation using camera-only perception."
+        - "Integrated trajectory planning and GPS navigation for real-time deployment in outdoor farm environments."
+        - "Achieved ~35 FPS inference on edge devices using ONNX and TensorRT optimizations."
 
     - title: Real-time Object Detection for Autonomous Driving (FYP)
       year: 2022
       description:
-        - Implemented YOLOv5 and SSD for real-time vehicle and object detection.
-        - Trained models on BDD100K dataset and tested on real driving video streams.
+        - "Implemented YOLOv5 and SSD models for real-time vehicle and object detection."
+        - "Trained models on the BDD100K dataset and tested on real driving video streams."
 
 # ------------------------------------------------------
-- title: Work Experience
+- title: "💼 Work Experience"
   type: time_table
   contents:
     - title: Computer Vision Engineer
       institution: Eziline Software House, Rawalpindi, Pakistan
       year: Jan 2023 – Aug 2023
       description:
-        - Built and deployed end-to-end vision pipelines using PyTorch, ONNX, and TensorRT.
-        - Performed feature extraction, model training, and performance optimization.
-        - Integrated deep learning models into real-world applications on embedded systems.
+        - "Built and deployed end-to-end computer vision pipelines using PyTorch, ONNX, and TensorRT."
+        - "Performed data preprocessing, feature extraction, model training, and performance optimization."
+        - "Integrated deep learning models into production-ready applications on embedded and edge devices."
 
 # ------------------------------------------------------
-- title: Skills
+- title: "🛠️ Skills"
   type: list
   contents:
     - "**Programming:** Python, C++"
-    - "**Deep Learning:** PyTorch, ONNX, TensorRT"
-    - "**Computer Vision:** OpenCV, PIL, Scikit-image"
-    - "**Tools & Platforms:** Docker, Git, CARLA, Hydra"
-    - "**Research Tools:** LaTeX/Overleaf, Jupyter, Matplotlib, Seaborn"
+    - "**Deep Learning Frameworks:** PyTorch, TensorRT, ONNX Runtime"
+    - "**Computer Vision:** OpenCV, scikit-image, PIL"
+    - "**Tools & Platforms:** Docker, Git, Linux, CARLA simulator, Hydra configs"
+    - "**Research & Documentation:** LaTeX / Overleaf, Jupyter, Matplotlib, Seaborn"
 
 # ------------------------------------------------------
-- title: Language Skills
+- title: "🌐 Language Skills"
   type: map
   contents:
     - name: Urdu
@@ -113,7 +113,7 @@
       value: Good
 
 # ------------------------------------------------------
-- title: Honors and Awards
+- title: "🏅 Honors and Awards"
   type: time_table
   contents:
     - year: 2023
@@ -122,4 +122,3 @@
     - year: 2022
       items:
         - Gold Medalist, Bachelor of Science in Computer Science
-

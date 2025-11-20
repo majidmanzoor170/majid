@@ -20,24 +20,24 @@
     - name: Location
       value: Chengdu, China
     - name: Email
-      value: majidmanzoor170@gmail.com
+      value: "<a href='mailto:majidmanzoor170@gmail.com'>majidmanzoor170@gmail.com</a>"
     - name: Phone
-      value: +86 13258174461
+      value: "+86 13258174461"
     - name: Website
-      value: "https://majidmanzoor170.github.io/majid/"
+      value: "<a href='https://majidmanzoor170.github.io/majid/' target='_blank'>majidmanzoor170.github.io/majid</a>"
     - name: GitHub
-      value: "https://github.com/majidmanzoor170"
+      value: "<a href='https://github.com/majidmanzoor170' target='_blank'>github.com/majidmanzoor170</a>"
     - name: LinkedIn
-      value: "https://www.linkedin.com/in/manzoormajid/"
+      value: "<a href='https://www.linkedin.com/in/manzoormajid/' target='_blank'>linkedin.com/in/manzoormajid</a>"
 
 # ------------------------------------------------------
 - title: "🔬 Research Interests"
   type: list
   contents:
-    - "Computer Vision — Object detection, lane detection, obstacle detection, segmentation"
-    - "Efficient Deep Learning — Model optimization, real-time inference, ONNX/TensorRT deployment"
-    - "Autonomous Systems — Vision-based perception, trajectory guidance"
-    - "Hyperspectral Imaging — Spatial–spectral modeling and analysis"
+    - "<b>Computer Vision:<b> Object detection, lane detection, obstacle detection, segmentation"
+    - "<b>Efficient Deep Learning:</b> Model optimization, real-time inference, ONNX/TensorRT deployment"
+    - "<b>Autonomous Systems:</b> Vision-based perception, trajectory guidance"
+    - "<b>Hyperspectral Imaging:</b> Spatial–spectral modeling and analysis"
 
 # ------------------------------------------------------
 - title: "🧠 Technical Expertise"

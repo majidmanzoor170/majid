@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const t=document.getElementById("visitorCounter");if(!t)return;fetch(`https://api.countapi.xyz/hit/${"majidmanzoor170_majid_site"}/visits`).then((t=>t.json())).then((n=>{t.innerHTML=`Visits: ${n.value}`})).catch((()=>{t.innerHTML=""}))}));

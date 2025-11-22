@@ -6,13 +6,13 @@
     {{ site.footer_text }}
   {% endif %}
 
-  {% if site.last_updated %}
+    {% if site.last_updated %}
     <br>
     Last updated: {{ site.time | date: '%B %d, %Y' }}.
   {% endif %}
 
   <br>
-  <span id="visitorCounter"></span>
+  <span id="visitorCounter" class="visitor-counter"></span>
 {% endcapture %}
 
 {% if site.footer_fixed %}

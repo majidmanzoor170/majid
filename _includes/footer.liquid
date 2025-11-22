@@ -1,18 +1,14 @@
 {% capture footer_contents %}
   &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+  <a href="{{ site.url }}{{ site.baseurl }}" target="_blank">
+    {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+  </a>
 
-  {% if site.footer_text %}
-    {{ site.footer_text }}
+  {% if site.last_updated %}
+    • Last updated: {{ site.time | date: '%B %d, %Y' }}
   {% endif %}
 
-    {% if site.last_updated %}
-    <br>
-    Last updated: {{ site.time | date: '%B %d, %Y' }}.
-  {% endif %}
-
-  <br>
-  <span id="visitorCounter" class="visitor-counter"></span>
+  • <span id="visitorCounter"></span>
 {% endcapture %}
 
 {% if site.footer_fixed %}
@@ -23,12 +19,10 @@
   </footer>
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
-
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
-
-    <div class="container">
+    <div class="container text-center">
       {{ footer_contents }}
     </div>
   </footer>

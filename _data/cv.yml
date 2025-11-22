@@ -2,10 +2,10 @@
 - title: "👨‍💻 Professional Summary"
   type: list
   contents:
-    - "Master's student in Computer Science & Technology at Southwest Jiaotong University, working on efficient deep learning, computer vision, and autonomous systems."
-    - "Experienced in object detection, Vision pipelines, and real-time model deployment on embedded and edge devices."
+    - "Master's student in <b>Computer Science & Technology</b> at Southwest Jiaotong University, focusing on efficient deep learning, computer vision, and autonomous systems."
+    - "Hands-on experience with <b>object detection</b>, end-to-end vision pipelines, and real-time deployment on embedded and edge devices."
     - "<b>Author</b> of an IEEE conference paper and <b>co-author</b> of multiple hyperspectral imaging research articles."
-    - "Motivated to pursue a <b>PhD</b> in computer vision, AI, and robotics."
+    - "Highly motivated to pursue a <b>PhD</b> in computer vision, AI, and robotics."
 
 # ------------------------------------------------------
 - title: "👤 General Information"
@@ -26,28 +26,28 @@
     - name: Website
       value: "<a href='https://majidmanzoor170.github.io/majid/' target='_blank'>majidmanzoor170.github.io/majid</a>"
     - name: GitHub
-      value: "<a href='https://github.com/majidmanzoor170' target='_blank'>github.com/majidmanzoor170</a>"
+      value: "<a href='https://github.com/majidmanzoor170' target='_blank'>majidmanzoor170</a>"
     - name: LinkedIn
-      value: "<a href='https://www.linkedin.com/in/manzoormajid/' target='_blank'>linkedin.com/in/manzoormajid</a>"
+      value: "<a href='https://www.linkedin.com/in/manzoormajid/' target='_blank'>manzoormajid</a>"
 
 # ------------------------------------------------------
 - title: "🔬 Research Interests"
   type: list
   contents:
-    - "<b>Computer Vision:<b> Object detection, lane detection, obstacle detection, segmentation"
-    - "<b>Efficient Deep Learning:</b> Model optimization, real-time inference, ONNX/TensorRT deployment"
-    - "<b>Autonomous Systems:</b> Vision-based perception, trajectory guidance"
+    - "<b>Computer Vision:</b> Object detection, lane detection, obstacle detection, segmentation"
+    - "<b>Efficient Deep Learning:</b> Model compression, optimization, real-time inference, ONNX/TensorRT deployment"
+    - "<b>Autonomous Systems:</b> Vision-based perception and trajectory guidance"
     - "<b>Hyperspectral Imaging:</b> Spatial–spectral modeling and analysis"
 
 # ------------------------------------------------------
 - title: "🧠 Technical Expertise"
   type: list
   contents:
-    - "<b>Real-Time Deployment:</b> TensorRT, ONNX Runtime, mixed precision"
-    - "<b>Deep Learning:</b> PyTorch, convolutional networks, transformers (basic)"
-    - "<b>Detection Frameworks:</b> YOLO family, SSD, custom lightweight models"
-    - "<b>Data & Pipelines:</b> dataset creation, augmentation, model evaluation"
-    - "<b>Tools:</b> Docker, Linux, Git, Hydra, Jupyter, CARLA"
+    - "<b>Real-Time Deployment:</b> TensorRT, ONNX Runtime, mixed-precision inference"
+    - "<b>Deep Learning:</b> PyTorch, convolutional networks, basic transformers"
+    - "<b>Detection Frameworks:</b> YOLO family, SSD, custom lightweight detectors"
+    - "<b>Data & Pipelines:</b> Dataset creation, augmentation, benchmarking, error analysis"
+    - "<b>Tools:</b> Docker, Linux, Git, Hydra configs, Jupyter, CARLA simulator"
 
 # ------------------------------------------------------
 - title: "🎓 Education"
@@ -57,16 +57,16 @@
       institution: Southwest Jiaotong University (SWJTU), Chengdu, China
       year: 2023–2026 (EXPECTED)
       description:
-        - "CGPA: 3.55 / 4.0"
-        - "Thesis: Enhancing Autonomous Driving with Vision-Based Perception and Trajectory Guidance"
-        - "Relevant Coursework: Artificial Intelligence, Deep Learning, Advanced Computer Vision, Pattern Recognition, Robotics"
+        - "<b>CGPA:</b> 3.55 / 4.0"
+        - "<b>Thesis:</b> Enhancing Autonomous Driving with Vision-Based Perception and Trajectory Guidance"
+        - "<b>Relevant Coursework:</b> Artificial Intelligence, Deep Learning, Advanced Computer Vision, Pattern Recognition, Robotics"
 
     - title: Bachelor of Science in Computer Science
       institution: Mohi-ud-Din Islamic University, Nerian Sharif, AJ&K, Pakistan
       year: 2018–2022
       description:
-        - "CGPA: 3.73 / 4.0  <b>(Gold Medalist)</b>"
-        - "Thesis: Real-time Object Detection for Autonomous Driving using Deep Learning"
+        - "<b>CGPA:</b> 3.73 / 4.0  <b>(Gold Medalist)</b>"
+        - "<b>Thesis:</b> Real-time Object Detection for Autonomous Driving using Deep Learning"
 
 # ------------------------------------------------------
 - title: "📄 Publications"
@@ -76,23 +76,26 @@
       year: 2024
       institution: IEEE ICCWAMTIP 2024, Chengdu, China
       description:
-        - "Authors: <b> Majid Manzoor </b>; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz"
-        - "Publisher: IEEE"
-        - "DOI: 10.1109/ICCWAMTIP64812.2024.10873687"
+        - "<b>Role:</b> <b>Author</b>"
+        - "<b>Authors:</b> <b>Majid Manzoor</b>; Jianbo Li; Lvxin Zhou; Aiping Zeng; Muhammad Haider Abbas; Shamas Tabraiz"
+        - "<b>Publisher:</b> IEEE"
+        - "<b>DOI:</b> 10.1109/ICCWAMTIP64812.2024.10873687"
 
     - title: "Spatial–Spectral Transformer with Gated Local and Spectral Self-Attention for Hyperspectral Forensic Imaging"
       year: 2025
       institution: Expert Systems with Applications (Elsevier)
       description:
-        - "Authors: M.H.F. Butt; Bo Peng; <b> Majid Manzoor </b>; Shamas Tabraiz"
-        - "Status: Research article"
+        - "<b>Role:</b> <b>Co-author</b>"
+        - "<b>Authors:</b> M.H.F. Butt; Bo Peng; <b>Majid Manzoor</b>; Shamas Tabraiz"
+        - "<b>Status:</b> Research article"
 
     - title: "A Wavelet-Enhanced CNN for Robust Hyperspectral Tumor Classification"
       year: 2025
       institution: Cluster Computing (Springer)
       description:
-        - "Authors: M.H.F. Butt; Peng Bo; <b>Majid Manzoor</b>; Rehan Tariq; Farhan Aadil"
-        - "Status: Under review"
+        - "<b>Role:</b> <b>Co-author</b>"
+        - "<b>Authors:</b> M.H.F. Butt; Peng Bo; <b>Majid Manzoor</b>; Rehan Tariq; Farhan Aadil"
+        - "<b>Status:</b> Under review"
 
 # ------------------------------------------------------
 - title: "📘 Projects"
@@ -102,16 +105,16 @@
       year: 2024–Present
       institution: Chinese Research Institute of Land and Big Data (CRILBD)
       description:
-        - "Developed a camera-based pipeline for lane detection, obstacle detection, and navigation."
-        - "Integrated trajectory planning and GPS-based guidance."
-        - "Achieved ~35 FPS realtime inference on edge hardware using TensorRT and ONNX optimizations."
+        - "Designed a camera-only perception pipeline for lane detection, obstacle detection, and navigation."
+        - "Integrated trajectory planning and GPS-based guidance for semi-autonomous operation."
+        - "Achieved ~35 FPS real-time inference on edge hardware using TensorRT and ONNX optimizations."
 
     - title: Real-time Object Detection for Autonomous Driving (FYP)
       year: 2022
       institution: Mohi-ud-Din Islamic University
       description:
         - "Implemented YOLOv5 and SSD models for real-time vehicle and obstacle detection."
-        - "Trained models on BDD100K and deployed on real driving footage."
+        - "Trained models on BDD100K and evaluated on real driving footage."
 
 # ------------------------------------------------------
 - title: "💼 Work Experience"
@@ -122,8 +125,8 @@
       year: Jan 2023 – Aug 2023
       description:
         - "Developed and deployed end-to-end computer vision systems using PyTorch."
-        - "Performed training, optimization, and model integration on embedded systems."
-        - "Collaborated with development teams to deliver AI-based solutions."
+        - "Optimized models for performance and integrated them into production applications."
+        - "Collaborated with backend and mobile teams to deliver AI-powered features."
 
 # ------------------------------------------------------
 - title: "🛠️ Skills"
@@ -133,7 +136,7 @@
     - "🤖 <b>Deep Learning:</b> PyTorch · TensorRT · ONNX Runtime"
     - "📷 <b>Computer Vision:</b> OpenCV · scikit-image · PIL"
     - "🧰 <b>Tools & DevOps:</b> Docker · Git · Linux · Hydra · CARLA"
-    - "📚 <b>Research Tools:</b> Jupyter · LaTeX/Overleaf · Matplotlib · Seaborn"
+    - "📚 <b>Research & Visualization:</b> Jupyter · LaTeX/Overleaf · Matplotlib · Seaborn"
 
 # ------------------------------------------------------
 - title: "🌐 Language Skills"
@@ -161,10 +164,10 @@
 - title: "🚀 Achievements"
   type: list
   contents:
-    - "Published in IEEE; co-author in Elsevier and Springer venues."
-    - "Developed real-time AI pipelines achieving up to 35 FPS on embedded devices."
-    - "Created multi-stage CV systems for autonomous vehicle applications."
-    - "Maintaining multiple open-source CV/AI repositories."
+    - "Published as <b>author</b> in an IEEE conference and <b>co-author</b> in Elsevier and Springer venues."
+    - "Built real-time AI pipelines achieving up to 35 FPS on embedded devices."
+    - "Developed multi-stage computer vision systems for autonomous vehicle applications."
+    - "Maintaining several open-source CV/AI repositories on GitHub."
 
 # ------------------------------------------------------
 - title: "🏆 Conferences & Workshops"
@@ -172,4 +175,4 @@
   contents:
     - year: 2024
       items:
-        - "Presented ObstaLaneYOYO at ICCWAMTIP 2024, Chengdu, China"
+        - "Presented <b>ObstaLaneYOLO</b> at ICCWAMTIP 2024, Chengdu, China."

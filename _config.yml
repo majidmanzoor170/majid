@@ -13,6 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   focusing on computer vision, deep learning, and autonomous systems. This website showcases 
   my research, publications, projects, and academic profile.
 footer_text: ""
+last_updated: true
 keywords: Majid Manzoor # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛰️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

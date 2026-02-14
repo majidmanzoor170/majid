@@ -2,16 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const el = document.getElementById("visitorCounter");
   if (!el) return;
 
-  // Unique namespace for your site (any string, but keep it stable)
-  const namespace = "majidmanzoor170_majid_site";
-
-  // Count-up animation helper
+  // Count-up animation helper (same style you used)
   function animateValue(start, end, duration) {
     const startTime = performance.now();
 
     function update(currentTime) {
       const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1); // 0 → 1
+      const progress = Math.min(elapsed / duration, 1);
       const value = Math.floor(start + (end - start) * progress);
 
       el.textContent = `👁️ Visits: ${value.toLocaleString()}`;
@@ -19,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (progress < 1) {
         requestAnimationFrame(update);
       } else {
-        // Small pulse at the end
         el.classList.add("visitor-counter-done");
         setTimeout(() => el.classList.remove("visitor-counter-done"), 350);
       }
@@ -28,17 +24,16 @@ document.addEventListener("DOMContentLoaded", function () {
     requestAnimationFrame(update);
   }
 
-  // Fetch + increment visits using countapi.xyz
-  fetch(`https://api.countapi.xyz/hit/${namespace}/visits`)
+  // Fetch visits from GoatCounter (does NOT increment; it reads total)
+  fetch("https://majid-manzoor.goatcounter.com/counter", { cache: "no-store" })
     .then((res) => res.json())
     .then((data) => {
-      const endValue = data && data.value ? data.value : 0;
-      // Animate from 0 → visits
+      const endValue = typeof data.count === "number" ? data.count : 0;
       animateValue(0, endValue, 1200);
     })
     .catch((err) => {
       console.error("Visitor counter error:", err);
-      // Fallback (no animation, just static text) if API fails
-      el.textContent = "";
+      // fallback
+      el.textContent = "👁️ Visits: —";
     });
 });

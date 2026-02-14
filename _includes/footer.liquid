@@ -1,6 +1,6 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  <a href="{{ site.url }}{{ site.baseurl }}" target="_blank">
+  &copy; {{ site.time | date: '%Y' }}
+  <a href="{{ site.url }}{{ site.baseurl }}" target="_blank" rel="noopener">
     {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
   </a>
 
@@ -8,7 +8,7 @@
     • Last updated: {{ site.time | date: '%B %d, %Y' }}
   {% endif %}
 
-  • <span id="visitorCounter"></span>
+  • <span id="visitorCounter">👁️ Visits: …</span>
 {% endcapture %}
 
 {% if site.footer_fixed %}
@@ -22,6 +22,7 @@
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
+
     <div class="container text-center">
       {{ footer_contents }}
     </div>

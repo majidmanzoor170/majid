@@ -325,9 +325,13 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
-<!-- Visitor Counter Script -->
-<script src="{{ '/assets/js/visitor-counter.js' | relative_url }}"></script>
-<!-- GoatCounter Visitor Analytics -->
-<script data-goatcounter="https://majid-manzoor.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+<!-- GoatCounter Visitor Analytics (must load on every page) -->
+<script
+  data-goatcounter="https://majid-manzoor.goatcounter.com/count"
+  async
+  src="https://gc.zgo.at/count.js"
+></script>
+
+<!-- Visitor Counter (reads GoatCounter total + animates in footer) -->
+<script defer src="{{ '/assets/js/visitor-counter.js' | relative_url }}"></script>
 

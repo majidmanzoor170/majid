@@ -410,7 +410,12 @@ ninja.data = [{
             },},{id: "news-i-successfully-passed-the-hsk-3-chinese-proficiency-exam-achieving-a-solid-score-that-reflects-my-consistent-effort-in-learning-mandarin-this-milestone-strengthens-my-communication-ability-in-daily-life-and-academic-environments-in-china",
           title: '🎉 I successfully passed the HSK 3 Chinese Proficiency Exam, achieving a solid...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-ieee-access-acceptance",
+          title: '🎉 IEEE Access Acceptance',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/majid/news/announcement_5/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {

@@ -1,5 +1,9 @@
-- date: 2026-03-23
-  title: "🎉 Paper Accepted in IEEE Access"
+- date: 2026-03-30
+  title: "🎉 IEEE Access Acceptance"
   content: >
-    Our paper titled <b>“A Differential Memory Attention Mamba for Spatial-Spectral Representation Learning toward Hyperspectral Image Classification”</b> has been accepted for publication in <b>IEEE Access</b>.
-    Minor revisions are required before final submission. This work focuses on advanced spatial–spectral modeling for hyperspectral image classification.
+    🚀 Our paper <b>“A Differential Memory Attention Mamba for Spatial-Spectral Representation Learning toward Hyperspectral Image Classification”</b>
+    has been <b>accepted in IEEE Access</b>!
+
+    This work introduces a novel memory-enhanced attention mechanism for hyperspectral learning.
+
+    📌 Status: Minor revisions before final publication.
